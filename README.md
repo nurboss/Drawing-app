@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Live Link [Create React App](https://drawring-app-2dd85.web.app/).
+Drawing-app [Live Link](https://drawring-app-2dd85.web.app/).
 
 ## Available Scripts
 
