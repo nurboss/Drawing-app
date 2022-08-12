@@ -1,0 +1,98 @@
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDEEF2;
+}
+.fixed-container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    box-shadow: 0 5px 35px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+}
+
+.one-half-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    background-color: white;
+}
+.one-half-container h1{
+    margin-bottom: 15px;
+}
+.icon-btn{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.one-half-container input{
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+}
+.one-half-container input[type="submit"]{
+    /* background-image: linear-gradient(to right, #EF4950 , #EF446A); */
+    background: #4D6EB3;
+    color: white;
+    font-size: 15px;
+    speak-as: 1.5px;
+    font-weight: 700;
+    padding: 10px 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 150px;
+    align-self: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.two-half-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    background: #4D6EB3;
+    /* background-image: linear-gradient(to right, #EF4950 , #EF446A); */
+}
+.two-half-container h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.two-half-container p{
+    color: white;
+    margin-bottom: 25px;
+    
+}
+.signup-btn{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    speak-as: 1.5px;
+    font-weight: 700;
+    padding: 10px 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+

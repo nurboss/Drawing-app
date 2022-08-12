@@ -1,0 +1,63 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDEEF2;
+    position: relative;
+}
+#canvas{
+    box-shadow: 0 5px 35px rgb(0 0 0 / 8%);
+}
+.all-controls{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 100%;
+    padding: 5px ;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 35px rgb(0 0 0 / 8%);
+}
+
+.brush{
+    border: none;
+}
+.common-btn{
+    width: 33px;
+    height: 33px;
+    background: #394c6026;
+    margin: 5px;
+    cursor: pointer;
+}
+.common-btn-nb{
+    width: 33px;
+    height: 33px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.img-parent{
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    background-image: url("../svg/img-upload.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-input{
+    opacity: 0;
+    width: 33px;
+    cursor: pointer;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+}
+.text-input{
+    padding-left: 5px;
+}
